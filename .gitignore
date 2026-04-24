@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Operational data (NEVER commit)
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.jsonl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets (NEVER commit)
+.env
+*.key
+*_secret*
+config/scoring_defaults.json
