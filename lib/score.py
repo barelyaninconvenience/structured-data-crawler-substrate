@@ -12,10 +12,8 @@ import anthropic
 RUBRIC_PATH = Path(__file__).resolve().parent.parent / "rubric.md"
 
 
-SYSTEM_PROMPT = """You are scoring a job posting for the overemployment endeavor.
-A user wants to stack multiple remote jobs that can be largely automated via AI
-tools. You score against a 6-dimension rubric (each 0-2, total /12). You return
-strict JSON with no markdown fences."""
+SYSTEM_PROMPT = """You are scoring a job posting against a structured 6-dimension
+rubric (each 0-2, total /12). Return strict JSON with no markdown fences."""
 
 
 def _build_user_prompt(job_title: str, job_company: str, job_pay: str,
