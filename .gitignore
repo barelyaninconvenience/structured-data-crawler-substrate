@@ -36,3 +36,6 @@ desktop.ini
 *.key
 *_secret*
 config/scoring_defaults.json
+
+# Session-internal scope-out documents (private archive only)
+docs/Top33_Boards_Scopeout_*.md
